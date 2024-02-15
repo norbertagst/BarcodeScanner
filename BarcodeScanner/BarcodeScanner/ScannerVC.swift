@@ -9,9 +9,9 @@ import Foundation
 import AVFoundation
 import SwiftUI
 
-enum CameraError: String {
-    case invalidDeviceInput = "Something is wrong with the camera."
-    case invalidScannedValue = "Scanned value is not valid."
+enum CameraError {
+    case invalidDeviceInput
+    case invalidScannedValue
 }
 
 protocol ScannerVCDelegate: AnyObject {
